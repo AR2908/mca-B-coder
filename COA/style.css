@@ -13,7 +13,7 @@ body {
   color: #fff;
   background: #990073;
 }
-blockquote {
+blockquote,.hindi_text {
 	text-align:center;
     z-index: var(--noindex);
     position: relative;
