@@ -23,7 +23,17 @@ body {
 }
 
 /* Common card style for sections */
-.start_btn,
+.start_btn{
+  text-align:center;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 24px auto;
+  padding: 20px 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 6px 20px rgba(0,0,0,0.09);
+  box-sizing: border-box;
+  width: 100%;
+}
 .info_box,
 .quiz_box,
 .result_box {
