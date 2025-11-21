@@ -123,5 +123,15 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
     <script src="question.js"></script>
     <script src="script.js"></script>
+    <!-- index.html ya koi bhi page -->
+<div id="footer"></div>
+<script>
+  fetch('footer.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+</script>
+
   </body>
 </html>
