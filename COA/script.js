@@ -338,3 +338,7 @@ const openModal = function () {
 btnOpenModal.addEventListener("click", openModal);
 btnCloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+ document.addEventListener("contextmenu", function (event) {
+    event.preventDefault();   // right-click menu band ho jayega
+  });
