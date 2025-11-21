@@ -14,7 +14,7 @@ body {
   background: #990073;
 }
 blockquote {
-	
+	text-align:center;
     z-index: var(--noindex);
     position: relative;
     padding-left: 30px;
