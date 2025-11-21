@@ -13,6 +13,46 @@ body {
   color: #fff;
   background: #990073;
 }
+blockquote {
+	
+    z-index: var(--noindex);
+    position: relative;
+    padding-left: 30px;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding: -1em;
+    padding-right: 0.25em;
+    margin-left: -1.75em;
+    margin-right: 0.2em;
+    max-width: 35em;
+    font-size: 20px;
+    text-align: center;
+}
+
+blockquote::before {
+	content: "“";
+	font-family: serif;
+	position: absolute;
+	right: 100%;
+	font-size: 75px;
+	line-height: 0px;
+	top: 50px;
+	color: var(--primary-color);
+	animation: dancing 1s linear infinite;
+	display: inline-block;
+	transform: rotate(13deg);
+}
+
+blockquote::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 100%;
+	width: 80px;
+	height: 5px;
+	
+	left: 1em;
+}
 
 /* Wrapper main box for center alignment */
 .main-container {
