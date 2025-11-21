@@ -13,21 +13,18 @@ body {
   color: #fff;
   background: #990073;
 }
-blockquote,.hindi_text {
-	text-align:center;
-    z-index: var(--noindex);
+blockquote, .hindi_text {
     position: relative;
-    padding-left: 30px;
     font-weight: 600;
-    color: var(--primary-color);
-    padding: -1em;
-    padding-right: 0.25em;
-    margin-left: -1.75em;
-    margin-right: 0.2em;
-    max-width: 35em;
+    color: var(--primary-color, #990073); /* fallback color */
+    max-width: 35em;            /* limit the width */
+    margin: 2em auto;           /* FULL CENTER - left/right auto */
+    padding: 1em 0.5em;         /* y-axis: 1em, x-axis: 0.5em */
     font-size: 20px;
     text-align: center;
+    box-sizing: border-box;
 }
+
 
 blockquote::before {
 	content: "“";
