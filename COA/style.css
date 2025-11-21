@@ -132,6 +132,7 @@ body {
 
 /* Quiz Box */
 .quiz_box header {
+  position: relative; 
   height: 70px;
   padding: 0 15px;
   background: #fff;
@@ -175,6 +176,7 @@ body {
   left: 0;
   height: 3px;
   background: #990073;
+  width:100%;
 }
 
 /* Quiz content */
